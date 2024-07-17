@@ -1888,13 +1888,24 @@ canvas {
 
 
 
-/* .rain-div{
+
+.rain-div{
   background-image: url('/Tehelka-Artech/assets/images/rain.png');
   height: 100vh;
   width: 100vw;
   margin-top: -900px;
   animation-name: rain;
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-} */
+}
+
+@keyframes rain{
+  from{
+    background-position: 0% 0%;
+  }
+
+  to{
+    background-position: 30% 100%;
+  }
+}
