@@ -1799,7 +1799,57 @@ canvas {
 }
 
 .iconify:hover{
-  transform: scaleX(1.3) scaleY(1.3);
+  transform: scale(1.3);
 }
 
 
+.bar1{
+  animation-name: progBar;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar {
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 40%;
+  }
+}
+
+
+.bar2{
+  animation-name: progBar2;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar2{
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 20%;
+  }
+}
+
+
+
+.bar3{
+  animation-name: progBar3;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar3{
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 30%;
+  }
+}
