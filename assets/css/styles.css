@@ -1799,7 +1799,113 @@ canvas {
 }
 
 .iconify:hover{
-  transform: scaleX(1.3) scaleY(1.3);
+  transform: scale(1.3);
 }
 
 
+.bar1{
+  animation-name: progBar;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar {
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 40%;
+  }
+}
+
+
+.bar2{
+  animation-name: progBar2;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar2{
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 20%;
+  }
+}
+
+
+
+.bar3{
+  animation-name: progBar3;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes progBar3{
+  from{
+    width: 0%;
+  }
+
+  to{
+    width: 30%;
+  }
+}
+
+
+.charge-bar1{
+  animation-name: chargeBar;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes chargeBar{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 75%;
+  }
+}
+
+
+.charge-bar2{
+  animation-name: chargeBar2;
+  animation-duration: 2.6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes chargeBar2{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+
+
+.rain-div{
+  background-image: url('/Tehelka-Artech/assets/images/rain.png');
+  height: 100vh;
+  width: 100vw;
+  margin-top: -900px;
+  animation-name: rain;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rain{
+  from{
+    background-position: 0% 0%;
+  }
+
+  to{
+    background-position: 30% 100%;
+  }
+}
