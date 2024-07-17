@@ -1017,6 +1017,8 @@ footer {
   justify-content:center;
 }
 
+
+
 .chart-box {
   background: #f6f6f6;
   padding: 10px;
@@ -1367,10 +1369,13 @@ body.show .sub-sidbar{
   width: 100%;
   height: 270px;
 }
+
 .line-chart-main canvas {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+    
 }
+
 .pai-chart canvas {
   width: 500px !important;
   height: 250px !important;
@@ -1739,6 +1744,8 @@ lord-icon.groupICon {
 .btnPWrap {
   margin-top: 5px;
 }
+<<<<<<< HEAD
+=======
 
 
 
@@ -1888,24 +1895,14 @@ canvas {
 
 
 
-
-.rain-div{
+/* .rain-div{
   background-image: url('/Tehelka-Artech/assets/images/rain.png');
   height: 100vh;
   width: 100vw;
   margin-top: -900px;
   animation-name: rain;
-  animation-duration: 0.4s;
+  animation-duration: 0.3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-}
-
-@keyframes rain{
-  from{
-    background-position: 0% 0%;
-  }
-
-  to{
-    background-position: 30% 100%;
-  }
-}
+} */
+>>>>>>> 77b482c4f210082c0ab5b83b888bb2d3d4866dbb

@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         datasets: [{
             label: 'Series 1',
             data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0],
-            borderColor: 'blue',
+            borderColor: '#0dcaf0',
             fill: false,
             tension: 0.1
         }]
@@ -88,3 +88,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
